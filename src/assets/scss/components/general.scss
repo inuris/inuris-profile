@@ -1,0 +1,30 @@
+@mixin transition($transition...) {
+	-moz-transition: $transition;
+	-o-transition: $transition;
+	-webkit-transition: $transition;
+	transition: $transition;
+}
+
+@mixin background($filename) {
+	background: url(../../assets/img/#{$filename}) no-repeat;
+}
+
+.full-width-bg {
+  @include background('card.svg');
+  background-repeat: repeat;
+  background-position: center center;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-between;
+  .middle-content-section {
+    text-align: center;
+    .card{
+        width: 540px;
+        height: 328px;
+        background: $light-gray;
+        border: 5px solid $medium-gray;
+        border-radius: 5px;
+      }
+  }
+  
+}

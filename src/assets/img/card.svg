@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="328" viewBox="0 0 540 338">
+  <g id="card" transform="translate(302 -30)">
+    <g id="bg-card" transform="translate(-302 30)" fill="#f8f8f8" stroke="#ddd" stroke-width="5" opacity="0.9">
+      <rect width="540" height="328" rx="5" stroke="none"/>
+      <rect x="2.5" y="2.5" width="535" height="323" rx="2.5" fill="none"/>
+    </g>
+    <g id="contact" transform="translate(-897 -430)">
+      <g id="icon-social" transform="translate(0 -7)">
+        <path id="Path_3" data-name="Path 3" d="M2.406,2H5.344V-5.156H7.625L8-8H5.344V-9.969a1.6,1.6,0,0,1,.25-1,1.451,1.451,0,0,1,1.156-.375h1.5v-2.531A15.478,15.478,0,0,0,6.063-14a3.622,3.622,0,0,0-2.656.984,3.705,3.705,0,0,0-1,2.766V-8H0v2.844H2.406Z" transform="translate(1033 774)" fill="#dedede"/>
+        <path id="Path_2" data-name="Path 2" d="M13.281-4.625A3.4,3.4,0,0,1,14-2.5a3.443,3.443,0,0,1-.469,1.75A3.438,3.438,0,0,1,12.25.531,3.443,3.443,0,0,1,10.5,1,3.4,3.4,0,0,1,8.375.281,7.672,7.672,0,0,1,7,.406,6.259,6.259,0,0,1,3.781-.453,6.4,6.4,0,0,1,1.453-2.781,6.259,6.259,0,0,1,.594-6,8.03,8.03,0,0,1,.719-7.375,3.4,3.4,0,0,1,0-9.5a3.443,3.443,0,0,1,.469-1.75A3.438,3.438,0,0,1,1.75-12.531,3.443,3.443,0,0,1,3.5-13a3.4,3.4,0,0,1,2.125.719A7.672,7.672,0,0,1,7-12.406a6.259,6.259,0,0,1,3.219.859,6.4,6.4,0,0,1,2.328,2.328A6.259,6.259,0,0,1,13.406-6,8.03,8.03,0,0,1,13.281-4.625ZM7.188-1.781a4.288,4.288,0,0,0,2.406-.656,2.342,2.342,0,0,0,1.094-2.031A2.01,2.01,0,0,0,9.75-6.187a5.792,5.792,0,0,0-1.906-.719L7.344-7a10.179,10.179,0,0,1-1.25-.375.6.6,0,0,1-.406-.562q0-.688,1.313-.687a2.215,2.215,0,0,1,.938.188,4.421,4.421,0,0,1,.563.406,1.125,1.125,0,0,0,.375.313.93.93,0,0,0,.469.125.922.922,0,0,0,.7-.281,1,1,0,0,0,.266-.719q0-.75-1.094-1.25a5.725,5.725,0,0,0-2.391-.469,4.39,4.39,0,0,0-2.3.563A2.193,2.193,0,0,0,3.438-7.781a2.142,2.142,0,0,0,.438,1.406A2.322,2.322,0,0,0,5-5.625a11.589,11.589,0,0,0,1.594.438l.625.156a3.205,3.205,0,0,1,.875.281.6.6,0,0,1,.344.563.7.7,0,0,1-.375.609,1.836,1.836,0,0,1-.984.234A2.055,2.055,0,0,1,6-3.625a3.394,3.394,0,0,1-.687-.562,2.283,2.283,0,0,0-.437-.406.986.986,0,0,0-.531-.156.849.849,0,0,0-.672.266.978.978,0,0,0-.234.672,1.4,1.4,0,0,0,.5,1.031,3.44,3.44,0,0,0,1.375.734A6.424,6.424,0,0,0,7.188-1.781Z" transform="translate(1061 774)" fill="#dedede"/>
+        <path id="Path_1" data-name="Path 1" d="M3.125,1V-8.344H.219V1ZM1.688-9.625a1.622,1.622,0,0,0,1.188-.5,1.622,1.622,0,0,0,.5-1.187,1.622,1.622,0,0,0-.5-1.187A1.622,1.622,0,0,0,1.688-13,1.622,1.622,0,0,0,.5-12.5,1.622,1.622,0,0,0,0-11.312a1.622,1.622,0,0,0,.5,1.188A1.622,1.622,0,0,0,1.688-9.625ZM14,1V-4.125a6.32,6.32,0,0,0-.625-3.187,3.1,3.1,0,0,0-2.844-1.281,3.081,3.081,0,0,0-1.75.5,2.5,2.5,0,0,0-1,1.031H7.75V-8.344H4.969V1H7.844V-3.625a3.488,3.488,0,0,1,.313-1.656,1.464,1.464,0,0,1,1.406-.75,1.315,1.315,0,0,1,1.344.844,5.048,5.048,0,0,1,.188,1.625V1Z" transform="translate(1091 774)" fill="#dedede"/>
+      </g>
+      <rect id="top" width="119" height="15.5" transform="translate(891 753.5)" fill="#ebebeb"/>
+    </g>
+    <g id="info" transform="translate(-992 -351)">
+      <g id="fakeinput">
+        <g id="Group" transform="translate(174 20)">
+          <rect id="top-2" data-name="top" width="79" height="11.5" transform="translate(720 490.5)" fill="#dedede"/>
+          <rect id="bot" width="305" height="18" transform="translate(720 505)" fill="#ebebeb"/>
+          <g id="line">
+            <line id="Line_1" data-name="Line 1" y2="18" transform="translate(758 505)" fill="none" stroke="#fff" stroke-width="3"/>
+            <line id="Line_2" data-name="Line 2" y2="18" transform="translate(780 505)" fill="none" stroke="#fff" stroke-width="3"/>
+            <line id="Line_3" data-name="Line 3" y2="18" transform="translate(906 505)" fill="none" stroke="#fff" stroke-width="3"/>
+          </g>
+        </g>
+        <g id="Group-2" data-name="Group" transform="translate(174 58)">
+          <rect id="top-3" data-name="top" width="56" height="11.5" transform="translate(720 490.5)" fill="#dedede"/>
+          <rect id="bot-2" data-name="bot" width="253" height="18" transform="translate(720 505)" fill="#ebebeb"/>
+          <g id="line-2" data-name="line">
+            <line id="Line_1-2" data-name="Line 1" y2="18" transform="translate(838 505)" fill="none" stroke="#fff" stroke-width="3"/>
+          </g>
+        </g>
+        <g id="Group-3" data-name="Group" transform="translate(174 96)">
+          <rect id="top-4" data-name="top" width="73" height="11.5" transform="translate(720 490.5)" fill="#dedede"/>
+          <rect id="bot-3" data-name="bot" width="268" height="18" transform="translate(720 505)" fill="#ebebeb"/>
+          <g id="line-3" data-name="line" transform="translate(48)">
+            <line id="Line_1-3" data-name="Line 1" y2="18" transform="translate(745 505)" fill="none" stroke="#fff" stroke-width="3"/>
+            <line id="Line_2-2" data-name="Line 2" y2="18" transform="translate(780 505)" fill="none" stroke="#fff" stroke-width="3"/>
+            <line id="Line_3-2" data-name="Line 3" y2="18" transform="translate(906 505)" fill="none" stroke="#fff" stroke-width="3"/>
+          </g>
+        </g>
+      </g>
+      <g id="name" transform="translate(0 8)">
+        <rect id="top-5" data-name="top" width="118" height="18.5" transform="translate(894 433.5)" fill="#dedede"/>
+        <rect id="bot-4" data-name="bot" width="178" height="11.5" transform="translate(894 460)" fill="#ebebeb"/>
+      </g>
+    </g>
+    <g id="img" transform="translate(-992 -351)">
+      <rect id="Rectangle_13" data-name="Rectangle 13" width="145" height="178" transform="translate(720 441)" fill="#f2f2f2"/>
+    </g>
+  </g>
+</svg>
