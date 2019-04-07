@@ -13,5 +13,7 @@ require('foundation-sites');
 // the line below
 //import './lib/foundation-explicit-pieces';
 
+import Snappable from './lib/snappable';
 
+Snappable();
 $(document).foundation();
