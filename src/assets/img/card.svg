@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="540" height="328" viewBox="0 0 540 338">
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="328" viewBox="0 0 540 328">
   <g id="card" transform="translate(302 -30)">
-    <g id="bg-card" transform="translate(-302 30)" fill="#f8f8f8" stroke="#ddd" stroke-width="5" opacity="0.9">
+    <g id="bg-card" transform="translate(-302 30)" fill="#f8f8f8">
       <rect width="540" height="328" rx="5" stroke="none"/>
       <rect x="2.5" y="2.5" width="535" height="323" rx="2.5" fill="none"/>
     </g>

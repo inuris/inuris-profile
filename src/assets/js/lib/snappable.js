@@ -19,7 +19,7 @@ export default function Snappable() {
 
   // --- Draggable events --- //
   swappable.on('drag:start', (evt) => {
-    if (evt.originalSource.classList.contains('Block--typeStripes')) {
+    if (evt.originalSource.classList.contains('card--typeStripes')) {
       evt.cancel();
     }
   });

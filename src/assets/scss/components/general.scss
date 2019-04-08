@@ -14,17 +14,24 @@
   background-repeat: repeat;
   background-position: center center;
   height: 100vh;
-  align-items: center;
-  justify-content: space-between;
-  .snappable {
-    text-align: center;
-    .card{
-        width: 540px;
-        height: 328px;
-        background: $light-gray;
-        border: 5px solid $medium-gray;
-        border-radius: 5px;
+}
+.card{
+  width: 33.75rem;
+  height: 20.5rem;
+  background: $light-gray;
+  border: 0.3125rem solid $medium-gray;
+  border-radius: 0.3125rem;
+  &.main{
+    padding-top: 3rem;
+    .thumbnail{
+      background: $dark-gray;
+      width:9.0625rem;
+      height: 11.125rem;
+      box-shadow: none;
+      border:0;
     }
-  }
-  
+  } 
+  &.placeholder{
+    @include background('card.svg');
+  } 
 }
