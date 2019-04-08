@@ -6,32 +6,70 @@
 }
 
 @mixin background($filename) {
-	background: url(../../assets/img/#{$filename}) no-repeat;
+  background-image: url(../../assets/img/#{$filename});
+  background-position: center;
+  background-size: cover;
+}
+.background-gray{
+  background:$light-gray;
 }
 
 .full-width-bg {
-  //@include background('card.svg');
-  background-repeat: repeat;
-  background-position: center center;
-  height: 100vh;
+  // @include background('card.svg');
+  // background-repeat: repeat;
+  // background-position: center center;
+  &>.grid-x{
+    height: 100vh
+  }
 }
-.card{
+.card{  
   width: 33.75rem;
-  height: 20.5rem;
-  background: $light-gray;
-  border: 0.3125rem solid $medium-gray;
+  height: 20.5rem;  
   border-radius: 0.3125rem;
+  padding-top: 3rem;
   &.main{
-    padding-top: 3rem;
+    background: $white;
+    box-shadow: none;
+    box-shadow: 0 0.25rem 0.375rem rgba(0,0,0,0.2);
     .thumbnail{
       background: $dark-gray;
-      width:9.0625rem;
-      height: 11.125rem;
+      @include background("avatar.jpg");
+      border: 1px solid $light-gray;
+      width:9.0625em;
+      height: 11.125em;
       box-shadow: none;
-      border:0;
     }
+    .info{
+      h3{
+        line-height: 0.8rem;;
+      }
+      p.subheader{
+        font-size: 0.8rem;
+        line-height: 0.8rem;
+        margin-bottom: 0;
+      }
+      .content{
+        margin-top:1.5rem;
+        .empty-slot{
+          margin-bottom: 0.3rem;
+          .key{
+            background: $dark-gray;
+            height: 0.71875rem;
+            margin-bottom: 0.2rem;
+          }
+          .value{
+            background: $medium-gray;
+            height: 1.125rem;
+          }
+        }
+      }
+    }
+    
   } 
   &.placeholder{
     @include background('card.svg');
-  } 
+    border: 0.3125rem solid $medium-gray;
+  }
+  @include breakpoint(small only) {
+  }
 }

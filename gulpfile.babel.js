@@ -14,7 +14,7 @@ import webpack2      from 'webpack';
 import named         from 'vinyl-named';
 import uncss         from 'uncss';
 import autoprefixer  from 'autoprefixer';
-
+import wait          from 'gulp-wait';
 // Load all Gulp plugins into one variable
 const $ = plugins();
 
@@ -91,6 +91,7 @@ function sass() {
   ].filter(Boolean);
 
   return gulp.src('src/assets/scss/app.scss')
+    .pipe(wait(500))
     .pipe($.sourcemaps.init())
     .pipe($.sass({
       includePaths: PATHS.sass
