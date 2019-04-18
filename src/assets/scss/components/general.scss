@@ -33,7 +33,7 @@
     box-shadow: 0 0.25rem 0.375rem rgba(0,0,0,0.2);
     .thumbnail{
       background: $dark-gray;
-      @include background("avatar.jpg");
+      //@include background("avatar.jpg");
       border: 1px solid $light-gray;
       width:9.0625em;
       height: 11.125em;
@@ -50,16 +50,26 @@
       }
       .content{
         margin-top:1.5rem;
-        .empty-slot{
+        .slot{
           margin-bottom: 0.3rem;
-          .key{
+          .block{
+            
+          }
+          label{
+            display: inline-block;
             background: $dark-gray;
             height: 0.71875rem;
             margin-bottom: 0.2rem;
+            font-size: 0.8rem;
+            font-weight: bold;
           }
           .value{
-            background: $medium-gray;
-            height: 1.125rem;
+            span.word{
+              background: $medium-gray;
+              height: 1.125rem;
+            }
+            
+
           }
         }
       }
