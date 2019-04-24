@@ -1,15 +1,4 @@
-@mixin transition($transition...) {
-  -moz-transition: $transition;
-  -o-transition: $transition;
-  -webkit-transition: $transition;
-  transition: $transition;
-}
-
-@mixin background($filename) {
-  background-image: url(../../assets/img/#{$filename});
-  background-position: center;
-  background-size: cover;
-}
+@import "components/mixin.scss";
 @import "components/card.scss";
 
 label{
