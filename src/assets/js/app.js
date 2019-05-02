@@ -13,7 +13,9 @@ require('foundation-sites');
 // the line below
 //import './lib/foundation-explicit-pieces';
 
-// import Snappable from './lib/snappable';
-// Snappable();
+ import DragEvents from './lib/draggable';
+ DragEvents();
 
 $(document).foundation();
+
+require('./lib/custom');
