@@ -6,7 +6,10 @@
         {
             "label": "watch",
             "type": "shell",
-            "command": "foundation watch"
+            "command": "foundation watch",
+            "runOptions": {
+                "runOn": "folderOpen"
+            }
         }
     ]
 }
