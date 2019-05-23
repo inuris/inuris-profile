@@ -1,13 +1,11 @@
-svg#circuit-svg {
+svg#circuit {
 	position: absolute;
 	top: 50%;
-	left: 70%;
+	left: 50%;
 	transform: translate(-50%, -50%);
     
-    .path {
-        opacity:0;
-        animation: draw 14s infinite;
-        animation-timing-function: linear;
+    .path.animation {
+        animation: draw 14s infinite 1s linear;
     }    
     @keyframes draw {
         0% {

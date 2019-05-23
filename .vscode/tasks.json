@@ -6,7 +6,8 @@
         {
             "label": "watch",
             "type": "shell",
-            "command": "foundation watch"
+            "command": "foundation watch",
+            "auto": true
         }
     ]
 }

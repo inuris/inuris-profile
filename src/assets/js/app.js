@@ -13,8 +13,8 @@ require('foundation-sites');
 // the line below
 //import './lib/foundation-explicit-pieces';
 
- import DragEvents from './lib/draggable';
- DragEvents();
+//  import DragEvents from './lib/draggable';
+//  DragEvents();
 
 $(document).foundation();
 

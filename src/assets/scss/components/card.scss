@@ -8,7 +8,7 @@ $project-count:3;
     background: $white;
     box-shadow: 0 1px 0 $dark-gray;
     position: absolute;
-    left: calc(70% - #{$card-width}px/2);
+    left: calc(50% - #{$card-width}px/2);
     top: calc(50% - #{$card-height}px/2);
     
     // Card Main with thumbnail & information
@@ -16,8 +16,23 @@ $project-count:3;
         cursor: grab;
         padding-top: 2.5rem;
         z-index: 100;
-        left: calc(30% - #{$card-width}px/2);
-        top: calc(50% - #{$card-height}px/2);
+        left: calc(50% - #{$card-width}px/2);
+        top: #{48-$card-height}px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+        &.fall{
+            cursor: default;
+            @include animation('fall 1s ease-out 0.1s 1 forwards');
+            @include keyframes(fall){
+                90%{
+                    top: calc(50% - #{$card-height}px/2 + 30px);
+                }
+                100%{
+                    top: calc(50% - #{$card-height}px/2);
+                }
+            }        
+        }
+        
+        //top: calc(50% - #{$card-height}px/2);
         //opacity:0.01;
 		.thumbnail {
 			background: $dark-gray;
@@ -93,8 +108,8 @@ $project-count:3;
         }
         //Hover main card state
         &:hover{
-            @include transition(all 0.2s);
-            @include transform(translateY(2px));
+            // @include transition(all 0.2s);
+            // @include transform(translateY(2px));
             //opacity: 1;
         }
     }
