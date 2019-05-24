@@ -1,7 +1,8 @@
 @charset 'utf-8';
 
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
 @import 'settings';
+@import 'global/mixin';
+@import 'global/typography';
 @import 'foundation';
 @import 'motion-ui';
 
@@ -64,4 +65,4 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
-@import "components/general.scss";
+@import "general.scss";

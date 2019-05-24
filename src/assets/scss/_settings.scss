@@ -61,7 +61,7 @@
 //  56. Xy Grid
 
 @import 'util/util';
-
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
 // 1. Global
 // ---------
 
@@ -142,20 +142,20 @@ $header-lineheight: 1.4;
 $header-margin-bottom: 0.5rem;
 $header-styles: (
   small: (
-    'h1': ('font-size': 24),
-    'h2': ('font-size': 20),
-    'h3': ('font-size': 16),
-    'h4': ('font-size': 14),
-    'h5': ('font-size': 11),
-    'h6': ('font-size': 10),
+    'h1': ('font-size': 28),
+    'h2': ('font-size': 22),
+    'h3': ('font-size': 18),
+    'h4': ('font-size': 16),
+    'h5': ('font-size': 15),
+    'h6': ('font-size': 14),
   ),
   medium: (
-    'h1': ('font-size': 30),
-    'h2': ('font-size': 24),
-    'h3': ('font-size': 20),
-    'h4': ('font-size': 16),
-    'h5': ('font-size': 13),
-    'h6': ('font-size': 12),
+    'h1': ('font-size': 32),
+    'h2': ('font-size': 28),
+    'h3': ('font-size': 24),
+    'h4': ('font-size': 18),
+    'h5': ('font-size': 16),
+    'h6': ('font-size': 15),
   ),
 );
 $header-text-rendering: optimizeLegibility;
